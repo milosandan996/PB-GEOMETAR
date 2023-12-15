@@ -1,0 +1,154 @@
+
+$logoWhite: #fcfefc;
+$pigeonBlue: #84a6dc;
+$lightBlue: #b4e6fc;
+$darkBlue: #344a74;
+
+
+$darkWaves: rgba(84,58,183,1);
+$lightWaves: rgba(0,172,193,1);
+
+//my waves
+$darkWaves2: rgba(52, 74, 116, 1);
+$lightWaves2: rgba(132, 166, 220, 1);
+
+
+
+$backgroundColor: $logoWhite;
+
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+html{
+    font-size: 10px;
+    // 1 rem
+}
+
+
+.logoHF{
+    width: 14rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+html p{
+    font-size: 1.6rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+html a{
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h1{
+    font-family: 'Libre Bodoni', sans-serif !important;
+}
+h2{
+    font-family: 'Libre Bodoni', sans-serif !important;
+}
+h3{
+    font-family: 'Libre Bodoni', sans-serif !important;
+}
+h4{
+    font-family: 'Libre Bodoni', sans-serif !important;
+}
+h5{
+    font-family: 'Libre Bodoni', sans-serif !important;
+}
+h6{
+    font-family: 'Libre Bodoni', sans-serif !important;
+}
+
+.mb-6{
+    margin-bottom: 5rem;
+}
+
+.mb-s{
+    margin-bottom: 11rem;
+}
+
+
+div{
+    text-align: center;
+    a.butt{
+        text-decoration: none;
+        font-family: 'Libre Bodoni', sans-serif !important;
+        color: white;
+        background-image: linear-gradient(to right, $lightBlue, $darkBlue);
+        margin: 0 auto;
+        border-radius: 30px;
+        padding: 2rem 4rem;
+        box-shadow: 0px 0px 30px 0px $pigeonBlue;
+    }
+}
+
+
+
+
+
+
+
+.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(85%, 60%);
+    background-color: $pigeonBlue;
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    transform: translate(-4%, 40%);
+    z-index: -1;
+}
+
+
+.map{
+    iframe{
+        width: 90%;
+        margin-bottom: 4rem;
+        border: 1px solid $darkBlue !important;
+    }
+}
+
+
+@media(min-width: 576px){
+    .map{
+    iframe{
+        width: 60%;
+        margin-bottom: 8rem;
+    }
+}
+}
+
+
+
+
+

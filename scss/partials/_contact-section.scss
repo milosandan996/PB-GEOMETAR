@@ -1,0 +1,78 @@
+
+
+#contact{
+    margin-bottom: 0 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    div.container{
+        div.row{
+            a{
+                margin-bottom: 2rem;
+                text-decoration: none;
+                color: $logoWhite;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            p{
+                margin-bottom: 2rem;
+                color: $logoWhite;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.social{
+    font-size: 4rem !important;
+    margin-right: 1rem !important;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    color: $logoWhite;
+}
+
+
+.instagram {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 4rem;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+#form{
+    input{
+        font-size: 1.8rem;
+    }
+    textarea{
+        font-size: 1.8rem;
+    }
+    .butt{
+        display: inline;
+        font-size: 1.8rem;
+        padding: 8px 25px !important;
+        color: gray;
+        border-radius: 2rem;
+        background: $backgroundColor;
+        &:hover{
+            background: gray;
+            color: white !important;
+        }
+    }
+}

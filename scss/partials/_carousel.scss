@@ -1,0 +1,28 @@
+
+
+
+
+#carousel-section{
+    margin-bottom: 12rem;
+    margin-top: 13rem;
+    h2{
+        font-size: 2.7rem;
+        margin-bottom: 5rem;
+    }
+}
+
+
+
+#carousel-section{
+    .c-item{
+        img{
+            border-radius: 30px;
+            border: 1px solid $darkBlue;
+        }
+    }
+}
+
+
+.owl-carousel{
+    margin-bottom: 7rem;
+}

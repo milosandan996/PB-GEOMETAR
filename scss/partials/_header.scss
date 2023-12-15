@@ -1,0 +1,70 @@
+
+
+header{
+    background-color: $backgroundColor;
+    div#top{
+        nav{
+            a{
+                text-transform: uppercase;
+            }
+            button{
+                border: 2px solid $darkBlue;
+            }
+            div{
+                ul{
+                    li{
+                        background-color: $lightBlue;
+                        transition: background-color 0.5s ease-in;
+                        text-align: center;
+                        border: 1px solid $lightBlue;
+                        border-radius: 15px 50px;
+                        padding-left: 0.7rem;
+                        padding-right: 0.7rem;
+                        padding-bottom: 0.3rem;
+                        padding-top: 0.3rem;
+                        &:hover{
+                            background-color: $pigeonBlue;
+                            transition: background-color 0.5s ease-in;
+                            box-shadow: 0px 0px 30px 0px $pigeonBlue;
+                        }
+                        &.active{
+                            background-color: $pigeonBlue;
+                            box-shadow: 0px 0px 30px 0px $pigeonBlue;
+                        }
+                        &.actives{
+                            background-color: $lightBlue;
+                            box-shadow: 0px 0px 20px 0px $darkBlue;
+                            &:hover{
+                                background-color: $pigeonBlue;
+                                transition: background-color 0.5s ease-in;
+                            }
+                        }
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-toggler-icon{
+    background-image: url(/images/toggler.png) !important;
+}
+
+
+li{
+    .header-phone{
+
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+}
+
+
+
+
+

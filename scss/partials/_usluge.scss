@@ -1,0 +1,141 @@
+
+
+#katastarska{
+    background-color: $logoWhite;
+    margin-bottom: 10rem;
+    div.katastarska-item{
+        margin-bottom: 5rem;
+        p{
+            font-size: 1.6rem;
+            max-width: 90%;
+            margin: 0 auto;
+            color: $pigeonBlue;
+        }
+    }
+}
+
+
+@media(min-width: 576px){
+    #katastarska{
+        div.katastarska-item{
+            p{
+                max-width: 70%;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+
+#katastarska{
+    h2{
+        margin-bottom: 7rem;
+        color: $darkBlue;
+    }
+}
+
+#katastarska{
+    h3{
+        color: $darkBlue;
+    }
+}
+
+
+#usluge{
+    div.container{
+        p.serv-text{
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 7rem;
+            color: $pigeonBlue;
+            &::first-letter{
+                font-size: 5rem;
+                line-height: 5rem !important;
+                font-family: 'Josefin Sans', sans-serif !important;
+                color: $darkBlue;
+            }
+        }
+        div.row{
+            div.col-12{
+                margin-bottom: 5rem;
+
+                div{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-attachment: scroll;
+                    border-radius: 30px;
+
+                    h2{
+                        padding: 2rem 0;
+                        color: white;
+                        font-size: 2.5rem;
+                    }
+
+                    a {
+                        padding: 5px;
+                        color: white !important;
+                        background: linear-gradient(0deg, white, whitesmoke) no-repeat right bottom / 0 var(--bg-h);
+                        transition: background-size 750ms;
+                        --bg-h: 100%;
+                        border-radius: 10px;
+                        width: 320px !important;
+                        display: inline-block;
+                    }
+                    a:where(:hover, :focus-visible) {
+                        background-size: 100% var(--bg-h);
+                        background-position-x: left;
+                    }
+                    a:hover{
+                        color: $darkBlue !important;
+                    }
+
+                    .underline {
+                        padding-bottom: 2px;
+                        --bg-h: 2px;
+                    }
+
+                    body {
+                        font-size: 2em;
+                        text-align: center;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        line-height: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(min-width: 576px){
+    #usluge{
+        div.container{
+            p.serv-text{
+                width: 70%;
+                margin: 0 auto;
+                text-align: justify;
+                margin-bottom: 7rem;
+                font-size: 1.7rem;
+            }
+            div.row{
+                div.col-12{
+                    div{
+
+                        h2{
+                            padding: 4rem 0;
+                        }
+                        a{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
